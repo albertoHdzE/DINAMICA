@@ -1,0 +1,46 @@
+///
+/// ESTE CODIGO VA EN EL CLICK
+///
+
+CompoSistemaDeEcuaciones5.ponCadenaEcuacion(0,"1");
+CompoSistemaDeEcuaciones5.ponCadenaEcuacion(1,"v");
+CompoSistemaDeEcuaciones5.ponCadenaEcuacion(2,"(w-(b*(v*((v*v)-c))))-System.Math.Sin(e)");
+
+CompoSistemaDeEcuaciones5.ponVariable(0,'t');
+CompoSistemaDeEcuaciones5.ponVariable(1,'e');
+CompoSistemaDeEcuaciones5.ponVariable(2,'v');
+
+CompoSistemaDeEcuaciones5.ponParametro(0,'w');
+CompoSistemaDeEcuaciones5.ponParametro(1,'b');
+CompoSistemaDeEcuaciones5.ponParametro(2,'c');
+
+CompoSistemaDeEcuaciones5.ponValorParametro(0,0.6);
+CompoSistemaDeEcuaciones5.ponValorParametro(1,0.5);
+CompoSistemaDeEcuaciones5.ponValorParametro(2,0.5);
+
+CompoEuler4.VectorEntrada=new double[]{0,3,0.2};
+
+CompoIterador2.VariableInicial=new double[]{0};
+CompoIterador2.VariableFinal=new double[]{50};
+CompoIterador2.Avance=new double[]{0.1};
+CompoIterador2.IntervaloTiempo=0;
+
+Grafica011.IniciaGrafica();
+CompoIterador2.Empieza();
+
+
+
+/// codigo para el evento Calculo terminado del metodo de integración
+
+Grafica011.Dibuja(eventos.vector.dameEntrada(1),eventos.vector.dameEntrada(2));
+Grafica011.Refresh();
+
+
+
+
+/// codigo para el evento "iteracion" del metodo de. iterador
+
+
+CompoEuler4.H=eventos.avance[0];
+CompoEuler4.Calcula(CompoSistemaDeEcuaciones5);
+CompoEuler4.VectorEntrada=CompoEuler4.VectorSalida;

@@ -1,0 +1,67 @@
+using System;
+			using System.Windows.Forms;
+			using Dinamica;
+			using System.Drawing;
+			using System.Collections;
+
+			namespace Carga_Dlls_Dinam
+			{
+			 public class AplicaPropiedades : MiVirtual2 {
+				public override void AsignaProps(BaseDinamica[] ArrayCompos) {
+				try{
+				ComponentesIDEdinamica.CompoTabControl CompoTabControl1=(ComponentesIDEdinamica.CompoTabControl)ArrayCompos[0];
+ComponentesIDEdinamica.CompoLabel CompoLabel20=(ComponentesIDEdinamica.CompoLabel)ArrayCompos[1];
+ComponentesIDEdinamica.CompoTextBox CompoTextBox19=(ComponentesIDEdinamica.CompoTextBox)ArrayCompos[2];
+ComponentesIDEdinamica.CompoTextBox CompoTextBox29=(ComponentesIDEdinamica.CompoTextBox)ArrayCompos[3];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox18=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[4];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox17=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[5];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox16=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[6];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox15=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[7];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox14=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[8];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox13=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[9];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox12=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[10];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox11=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[11];
+ComponentesIDEdinamica.CompoCheckBox CompoCheckBox10=(ComponentesIDEdinamica.CompoCheckBox)ArrayCompos[12];
+Dinamica.Componentes.CompoIterador CompoIterador22=(Dinamica.Componentes.CompoIterador)ArrayCompos[13];
+Dinamica.Numericos.CompoCampoDireccional CompoCampoDireccional23=(Dinamica.Numericos.CompoCampoDireccional)ArrayCompos[14];
+Dinamica.Numericos.CompoCampoVectorial CompoCampoVectorial24=(Dinamica.Numericos.CompoCampoVectorial)ArrayCompos[15];
+Dinamica.Numericos.CompoIsoclinas CompoIsoclinas25=(Dinamica.Numericos.CompoIsoclinas)ArrayCompos[16];
+Dinamica.Numericos.CompoPeriodos CompoPeriodos26=(Dinamica.Numericos.CompoPeriodos)ArrayCompos[17];
+Dinamica.Numericos.CompoEquilibrios CompoEquilibrios27=(Dinamica.Numericos.CompoEquilibrios)ArrayCompos[18];
+Dinamica.ComboMI ComboMI28=(Dinamica.ComboMI)ArrayCompos[19];
+Dinamica.MenuPrin MenuPrin30=(Dinamica.MenuPrin)ArrayCompos[20];
+CompoLabel20.Text="etiqueta";
+CompoTextBox19.Text="";
+CompoTextBox29.Multilinea=true;
+CompoTextBox29.Lineas=new string[9]{"las","li","nea","as","que }","","estoy asingnandp","estan aq","ui"};
+CompoCheckBox18.Text="nueve";
+CompoCheckBox17.Text="ocho";
+CompoCheckBox16.Text="siete";
+CompoCheckBox15.Text="seis";
+CompoCheckBox14.Text="cinco";
+CompoCheckBox13.Text="cuatro";
+CompoCheckBox12.Text="tres";
+CompoCheckBox11.Text="dos";
+CompoCheckBox10.Text="beto";
+
+MenuPrin30.Reinicia();
+MenuPrin30.AgregaMenu("uno");
+MenuPrin30.AgregaOpcion(0,"uno nuo","MessageBox.Show(\"nuo\");"); //>"MessageBox.Show(\"nuo\");"
+MenuPrin30.AgregaOpcion(0,"uno dos",""); //>""
+MenuPrin30.AgregaOpcion(0,"uno tres",""); //>""
+MenuPrin30.AgregaOpcionNuevo(0);
+MenuPrin30.AgregaMenu("dos");
+MenuPrin30.AgregaOpcionNuevo(1);
+MenuPrin30.AgregaMenu("tres");
+MenuPrin30.AgregaOpcion(2,"tres uno",""); //>""
+MenuPrin30.AgregaOpcion(2,"tres dos",""); //>""
+MenuPrin30.AgregaOpcionNuevo(2);
+MenuPrin30.AgregaMenuNuevo();
+MenuPrin30.EnlazaMenu();
+
+				}
+				catch(Exception e)
+				{System.Windows.Forms.MessageBox.Show(e.Message);}
+				}
+	   }
+			}

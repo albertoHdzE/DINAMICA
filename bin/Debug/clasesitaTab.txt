@@ -1,0 +1,18 @@
+using System;
+			using System.Windows.Forms;
+			using Dinamica;
+			using System.Drawing;
+			using System.Collections;
+
+			namespace Carga_Dlls_Dinam
+			{
+			 public class AplicaPropiedades : MiVirtualTabs {
+				public override void AsignaTabs(object[] ArrayCompos) {
+				try{
+				
+				}
+				catch(Exception e)
+				{System.Windows.Forms.MessageBox.Show(e.Message);}
+				}
+	   }
+			}

@@ -1,0 +1,585 @@
+
+		  using System;
+		  using System.Drawing;
+		  using System.Collections;
+		  using System.ComponentModel;
+		  using System.Windows.Forms;
+		  using System.Data;
+		  using System.IO;
+
+
+		  ///<MIS USING>
+
+
+		  
+		  namespace MiEspacio
+		  {
+			  public class instancia_Forma2 : System.Windows.Forms.Form
+			  {
+
+				 /// Declaraciones de los componentes contendos en la forma
+				 private Principal Forma1;
+				 private System.ComponentModel.Container components = null;
+public ComponentesIDEdinamica.BotonPaleta BotonPaleta1= new ComponentesIDEdinamica.BotonPaleta();
+public ComponentesIDEdinamica.BotonPaleta BotonPaleta2= new ComponentesIDEdinamica.BotonPaleta();
+
+
+
+				 public  instancia_Forma2(Principal Forma1)
+				 {
+					this.Forma1=Forma1;
+					InicializaComponentes();
+					
+this.Height=484;
+this.Width=670;
+this.Left=420;
+this.Top=250;
+
+				 }
+
+
+
+				  protected override void Dispose(bool disposing)
+				  {
+					 if (disposing)
+					 {
+						if (components != null)
+						{
+							components.Dispose();
+						}
+					 }
+					 base.Dispose(disposing);
+				  }
+
+
+				  private void InicializaComponentes()
+				  {
+					 /// Crea todos los componentes contenidos en la forma
+					 
+
+					 /// Especificacion de posicion y dimenciones de componentes
+					 //
+//BotonPaleta1
+//
+this.BotonPaleta1.Nombre="BotonPaleta1";
+this.BotonPaleta1.Left=161;
+this.BotonPaleta1.Top=87;
+this.BotonPaleta1.Width=75;
+this.BotonPaleta1.Height=23;
+
+
+;
+this.Controls.Add(this.BotonPaleta1);//
+//BotonPaleta2
+//
+this.BotonPaleta2.Nombre="BotonPaleta2";
+this.BotonPaleta2.Left=282;
+this.BotonPaleta2.Top=177;
+this.BotonPaleta2.Width=75;
+this.BotonPaleta2.Height=23;
+
+
+;
+this.Controls.Add(this.BotonPaleta2);
+
+
+
+
+				  }
+
+
+
+			  }/// fin de clase
+
+
+			  ///<CLASE INSTANCIADA>
+		  }/// FIN DE MiEspacio
+
+		  
+
+		  namespace MiEspacio
+		  {
+			  public class Principal : System.Windows.Forms.Form
+			  {
+				 /// Declaraciones de los componentes contendos en la forma de dise?o
+				 private System.ComponentModel.Container components = null;
+public ComponentesIDEdinamica.BotonPaleta BotonPaleta32= new ComponentesIDEdinamica.BotonPaleta();
+public ComponentesIDEdinamica.BotonPaleta BotonPaleta31= new ComponentesIDEdinamica.BotonPaleta();
+public Dinamica.MenuPrin MenuPrin30= new Dinamica.MenuPrin();
+public ComponentesIDEdinamica.CompoTabControl CompoTabControl1= new ComponentesIDEdinamica.CompoTabControl();
+public ComponentesIDEdinamica.CompoLabel CompoLabel20= new ComponentesIDEdinamica.CompoLabel();
+public ComponentesIDEdinamica.CompoTextBox CompoTextBox19= new ComponentesIDEdinamica.CompoTextBox();
+public ComponentesIDEdinamica.CompoTextBox CompoTextBox29= new ComponentesIDEdinamica.CompoTextBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox18= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox17= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox16= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox15= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox14= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox13= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox12= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox11= new ComponentesIDEdinamica.CompoCheckBox();
+public ComponentesIDEdinamica.CompoCheckBox CompoCheckBox10= new ComponentesIDEdinamica.CompoCheckBox();
+public Dinamica.Componentes.CompoIterador CompoIterador22= new Dinamica.Componentes.CompoIterador();
+public Dinamica.Numericos.CompoCampoDireccional CompoCampoDireccional23= new Dinamica.Numericos.CompoCampoDireccional();
+public Dinamica.Numericos.CompoCampoVectorial CompoCampoVectorial24= new Dinamica.Numericos.CompoCampoVectorial();
+public Dinamica.Numericos.CompoIsoclinas CompoIsoclinas25= new Dinamica.Numericos.CompoIsoclinas();
+public Dinamica.Numericos.CompoPeriodos CompoPeriodos26= new Dinamica.Numericos.CompoPeriodos();
+public Dinamica.Numericos.CompoEquilibrios CompoEquilibrios27= new Dinamica.Numericos.CompoEquilibrios();
+public Dinamica.ComboMI ComboMI28= new Dinamica.ComboMI();
+public System.Windows.Forms.TabPage Pagina1= new System.Windows.Forms.TabPage();
+public Dinamica.Visualizaciones.Grafica05 Grafica055= new Dinamica.Visualizaciones.Grafica05();
+public System.Windows.Forms.TabPage Pagina2= new System.Windows.Forms.TabPage();
+public Dinamica.Visualizaciones.Grafica01 Grafica016= new Dinamica.Visualizaciones.Grafica01();
+public System.Windows.Forms.TabPage Pagina3= new System.Windows.Forms.TabPage();
+public Dinamica.Visualizaciones.Grafica01 Grafica019= new Dinamica.Visualizaciones.Grafica01();
+public Dinamica.Visualizaciones.Grafica01 Grafica018= new Dinamica.Visualizaciones.Grafica01();
+public Dinamica.Visualizaciones.Grafica01 Grafica017= new Dinamica.Visualizaciones.Grafica01();
+
+
+
+				 public instancia_Forma2 Forma2;
+
+
+				 public  Principal()
+				 {
+
+					Forma2 =new instancia_Forma2(this);
+
+					InicializaComponentes();
+                    
+this.Left=230;
+this.Top=157;
+this.Height=795;
+this.Width=1030;
+
+
+				 }
+
+				  [STAThread]
+				  static void Main()
+				  {
+						Application.Run(new Principal());
+				  }
+
+				  protected override void Dispose(bool disposing)
+				  {
+					 if (disposing)
+					 {
+						if (components != null)
+						{
+							components.Dispose();
+						}
+					 }
+					 base.Dispose(disposing);
+				  }
+
+
+				  private void InicializaComponentes()
+				  {
+					 /// Crea todos los componentes contenidos en la forma
+					 
+
+					 /// Especificacion de posicion y dimenciones de componentes
+					 //
+//BotonPaleta32
+//
+this.BotonPaleta32.Nombre="BotonPaleta32";
+this.BotonPaleta32.Left=886;
+this.BotonPaleta32.Top=591;
+this.BotonPaleta32.Width=75;
+this.BotonPaleta32.Height=23;
+
+
+;
+this.Controls.Add(this.BotonPaleta32);//
+//BotonPaleta31
+//
+this.BotonPaleta31.Nombre="BotonPaleta31";
+this.BotonPaleta31.Left=889;
+this.BotonPaleta31.Top=553;
+this.BotonPaleta31.Width=75;
+this.BotonPaleta31.Height=23;
+
+
+;
+this.Controls.Add(this.BotonPaleta31);//
+//MenuPrin30
+//
+this.MenuPrin30.Nombre="MenuPrin30";
+this.MenuPrin30.Left=149;
+this.MenuPrin30.Top=40;
+this.MenuPrin30.Width=32;
+this.MenuPrin30.Height=32;
+this.MenuPrin30.Hide()
+
+;
+MenuPrin30.Reinicia();
+MenuPrin30.AgregaMenu("uno nuo");
+MenuPrin30.AgregaOpcion(0,"uno nuo","MenuPrin30_1_1", this); //>"MenuPrin30_1_1", this
+MenuPrin30.AgregaOpcion(0,"uno dos","MenuPrin30_1_2", this); //>"MenuPrin30_1_2", this
+MenuPrin30.AgregaOpcion(0,"uno tres","MenuPrin30_1_3", this); //>"MenuPrin30_1_3", this
+MenuPrin30.AgregaMenu("dos");
+MenuPrin30.AgregaMenu("tres");
+MenuPrin30.AgregaOpcion(2,"tres uno","MenuPrin30_3_1", this); //>"MenuPrin30_3_1", this
+MenuPrin30.AgregaOpcion(2,"tres dos","MenuPrin30_3_2", this); //>"MenuPrin30_3_2", this
+MenuPrin30.EnlazaMenu(this);
+this.Controls.Add(this.MenuPrin30);//
+//CompoTabControl1
+//
+this.CompoTabControl1.Nombre="CompoTabControl1";
+this.CompoTabControl1.Left=208;
+this.CompoTabControl1.Top=63;
+this.CompoTabControl1.Width=587;
+this.CompoTabControl1.Height=477;
+
+
+;
+this.Controls.Add(this.CompoTabControl1);//
+//CompoLabel20
+//
+this.CompoLabel20.Nombre="CompoLabel20";
+this.CompoLabel20.Left=255;
+this.CompoLabel20.Top=23;
+this.CompoLabel20.Width=100;
+this.CompoLabel20.Height=23;
+
+
+;
+this.Controls.Add(this.CompoLabel20);//
+//CompoTextBox19
+//
+this.CompoTextBox19.Nombre="CompoTextBox19";
+this.CompoTextBox19.Left=444;
+this.CompoTextBox19.Top=22;
+this.CompoTextBox19.Width=358;
+this.CompoTextBox19.Height=20;
+
+
+;
+this.Controls.Add(this.CompoTextBox19);//
+//CompoTextBox29
+//
+this.CompoTextBox29.Nombre="CompoTextBox29";
+this.CompoTextBox29.Left=816;
+this.CompoTextBox29.Top=186;
+this.CompoTextBox29.Width=153;
+this.CompoTextBox29.Height=168;
+
+
+;
+this.Controls.Add(this.CompoTextBox29);//
+//CompoCheckBox18
+//
+this.CompoCheckBox18.Nombre="CompoCheckBox18";
+this.CompoCheckBox18.Left=70;
+this.CompoCheckBox18.Top=473;
+this.CompoCheckBox18.Width=104;
+this.CompoCheckBox18.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox18);//
+//CompoCheckBox17
+//
+this.CompoCheckBox17.Nombre="CompoCheckBox17";
+this.CompoCheckBox17.Left=47;
+this.CompoCheckBox17.Top=408;
+this.CompoCheckBox17.Width=104;
+this.CompoCheckBox17.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox17);//
+//CompoCheckBox16
+//
+this.CompoCheckBox16.Nombre="CompoCheckBox16";
+this.CompoCheckBox16.Left=48;
+this.CompoCheckBox16.Top=357;
+this.CompoCheckBox16.Width=104;
+this.CompoCheckBox16.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox16);//
+//CompoCheckBox15
+//
+this.CompoCheckBox15.Nombre="CompoCheckBox15";
+this.CompoCheckBox15.Left=43;
+this.CompoCheckBox15.Top=309;
+this.CompoCheckBox15.Width=104;
+this.CompoCheckBox15.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox15);//
+//CompoCheckBox14
+//
+this.CompoCheckBox14.Nombre="CompoCheckBox14";
+this.CompoCheckBox14.Left=44;
+this.CompoCheckBox14.Top=264;
+this.CompoCheckBox14.Width=104;
+this.CompoCheckBox14.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox14);//
+//CompoCheckBox13
+//
+this.CompoCheckBox13.Nombre="CompoCheckBox13";
+this.CompoCheckBox13.Left=45;
+this.CompoCheckBox13.Top=215;
+this.CompoCheckBox13.Width=104;
+this.CompoCheckBox13.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox13);//
+//CompoCheckBox12
+//
+this.CompoCheckBox12.Nombre="CompoCheckBox12";
+this.CompoCheckBox12.Left=45;
+this.CompoCheckBox12.Top=178;
+this.CompoCheckBox12.Width=104;
+this.CompoCheckBox12.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox12);//
+//CompoCheckBox11
+//
+this.CompoCheckBox11.Nombre="CompoCheckBox11";
+this.CompoCheckBox11.Left=40;
+this.CompoCheckBox11.Top=139;
+this.CompoCheckBox11.Width=104;
+this.CompoCheckBox11.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox11);//
+//CompoCheckBox10
+//
+this.CompoCheckBox10.Nombre="CompoCheckBox10";
+this.CompoCheckBox10.Left=45;
+this.CompoCheckBox10.Top=102;
+this.CompoCheckBox10.Width=104;
+this.CompoCheckBox10.Height=24;
+
+
+;
+this.Controls.Add(this.CompoCheckBox10);//
+//CompoIterador22
+//
+this.CompoIterador22.Nombre="CompoIterador22";
+this.CompoIterador22.Left=317;
+this.CompoIterador22.Top=687;
+this.CompoIterador22.Width=168;
+this.CompoIterador22.Height=48;
+
+
+;
+this.Controls.Add(this.CompoIterador22);//
+//CompoCampoDireccional23
+//
+this.CompoCampoDireccional23.Nombre="CompoCampoDireccional23";
+this.CompoCampoDireccional23.Left=732;
+this.CompoCampoDireccional23.Top=692;
+this.CompoCampoDireccional23.Width=32;
+this.CompoCampoDireccional23.Height=32;
+this.CompoCampoDireccional23.Hide()
+
+;
+this.Controls.Add(this.CompoCampoDireccional23);//
+//CompoCampoVectorial24
+//
+this.CompoCampoVectorial24.Nombre="CompoCampoVectorial24";
+this.CompoCampoVectorial24.Left=776;
+this.CompoCampoVectorial24.Top=689;
+this.CompoCampoVectorial24.Width=32;
+this.CompoCampoVectorial24.Height=32;
+this.CompoCampoVectorial24.Hide()
+
+;
+this.Controls.Add(this.CompoCampoVectorial24);//
+//CompoIsoclinas25
+//
+this.CompoIsoclinas25.Nombre="CompoIsoclinas25";
+this.CompoIsoclinas25.Left=823;
+this.CompoIsoclinas25.Top=686;
+this.CompoIsoclinas25.Width=32;
+this.CompoIsoclinas25.Height=32;
+this.CompoIsoclinas25.Hide()
+
+;
+this.Controls.Add(this.CompoIsoclinas25);//
+//CompoPeriodos26
+//
+this.CompoPeriodos26.Nombre="CompoPeriodos26";
+this.CompoPeriodos26.Left=867;
+this.CompoPeriodos26.Top=690;
+this.CompoPeriodos26.Width=32;
+this.CompoPeriodos26.Height=32;
+this.CompoPeriodos26.Hide()
+
+;
+this.Controls.Add(this.CompoPeriodos26);//
+//CompoEquilibrios27
+//
+this.CompoEquilibrios27.Nombre="CompoEquilibrios27";
+this.CompoEquilibrios27.Left=915;
+this.CompoEquilibrios27.Top=684;
+this.CompoEquilibrios27.Width=32;
+this.CompoEquilibrios27.Height=32;
+this.CompoEquilibrios27.Hide()
+
+;
+this.Controls.Add(this.CompoEquilibrios27);//
+//ComboMI28
+//
+this.ComboMI28.Nombre="ComboMI28";
+this.ComboMI28.Left=837;
+this.ComboMI28.Top=112;
+this.ComboMI28.Width=121;
+this.ComboMI28.Height=21;
+
+
+;
+this.Controls.Add(this.ComboMI28);this.Pagina1.Text="3D";this.CompoTabControl1.AgregaPagina(this.Pagina1);
+//
+//Grafica055
+//
+this.Grafica055.Nombre="Grafica055";
+this.Grafica055.Left=48;
+this.Grafica055.Top=66;
+this.Grafica055.Width=424;
+this.Grafica055.Height=376;
+
+
+;
+this.Pagina1.Controls.Add(this.Grafica055);
+this.Pagina2.Text="Otros";this.CompoTabControl1.AgregaPagina(this.Pagina2);
+//
+//Grafica016
+//
+this.Grafica016.Nombre="Grafica016";
+this.Grafica016.Left=58;
+this.Grafica016.Top=63;
+this.Grafica016.Width=344;
+this.Grafica016.Height=344;
+
+
+;
+this.Pagina2.Controls.Add(this.Grafica016);
+this.Pagina3.Text="Pagina3";this.CompoTabControl1.AgregaPagina(this.Pagina3);
+//
+//Grafica019
+//
+this.Grafica019.Nombre="Grafica019";
+this.Grafica019.Left=16;
+this.Grafica019.Top=257;
+this.Grafica019.Width=546;
+this.Grafica019.Height=104;
+
+
+;
+this.Pagina3.Controls.Add(this.Grafica019);
+//
+//Grafica018
+//
+this.Grafica018.Nombre="Grafica018";
+this.Grafica018.Left=28;
+this.Grafica018.Top=121;
+this.Grafica018.Width=444;
+this.Grafica018.Height=115;
+
+
+;
+this.Pagina3.Controls.Add(this.Grafica018);
+//
+//Grafica017
+//
+this.Grafica017.Nombre="Grafica017";
+this.Grafica017.Left=34;
+this.Grafica017.Top=18;
+this.Grafica017.Width=403;
+this.Grafica017.Height=93;
+
+
+;
+this.Pagina3.Controls.Add(this.Grafica017);
+
+this.CompoLabel20.Text="etiqueta";
+this.CompoTextBox19.Text="";
+this.CompoTextBox29.Multilinea=true;
+this.CompoTextBox29.Lineas=new string[9]{"las","li","nea","as","que }","","estoy asingnandp","estan aq","ui"};
+this.CompoCheckBox18.Text="nueve";
+this.CompoCheckBox17.Text="ocho";
+this.CompoCheckBox16.Text="siete";
+this.CompoCheckBox15.Text="seis";
+this.CompoCheckBox14.Text="cinco";
+this.CompoCheckBox13.Text="cuatro";
+this.CompoCheckBox12.Text="tres";
+this.CompoCheckBox11.Text="dos";
+this.CompoCheckBox10.Text="beto";
+this.BotonPaleta31.Text="Show";
+this.BotonPaleta32.Text="hide";
+
+
+
+
+					 /// Direcciona el codigo agregado por usuario a un metodo en la clase
+					 
+this.BotonPaleta32.LanzaMiClick+= new System.EventHandler(this.BotonPaleta32_LanzaMiClick);
+this.BotonPaleta31.LanzaMiClick+= new System.EventHandler(this.BotonPaleta31_LanzaMiClick);}/// cierra IncializaComponentes
+
+
+private void BotonPaleta32_LanzaMiClick(System.Object sender, System.EventArgs eventos)
+{
+Forma2.Hide();
+
+}
+private void BotonPaleta31_LanzaMiClick(System.Object sender, System.EventArgs eventos)
+{
+Forma2.Show();
+
+}public void MenuPrin30_1_1(object emisor, System.EventArgs e)
+{
+MessageBox.Show("nuo");
+}
+public void MenuPrin30_1_2(object emisor, System.EventArgs e)
+{
+
+}
+public void MenuPrin30_1_3(object emisor, System.EventArgs e)
+{
+
+}
+public void MenuPrin30_1_4(object emisor, System.EventArgs e)
+{
+
+}
+public void MenuPrin30_2_1(object emisor, System.EventArgs e)
+{
+
+}
+public void MenuPrin30_3_1(object emisor, System.EventArgs e)
+{
+
+}
+public void MenuPrin30_3_2(object emisor, System.EventArgs e)
+{
+
+}
+public void MenuPrin30_3_3(object emisor, System.EventArgs e)
+{
+
+}
+
+
+
+				  
+
+
+
+			  }/// fin de clase
+
+		  }/// fin de namespace

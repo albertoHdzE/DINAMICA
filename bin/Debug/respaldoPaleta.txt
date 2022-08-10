@@ -1,0 +1,9 @@
+Visualizaciones,grafica_v0_1.dll
+Mapas Complejos,fractal.dll
+Poincaré,MapeoCirculo.dll
+Iterables,Iterables.dll
+EDO,EDO.dll
+combo,combobox_metodos.dll
+COMPOS,ComponentesIDEdinamica.dll
+Fractal,fractal.dll
+Iter_2,Iterables.dll

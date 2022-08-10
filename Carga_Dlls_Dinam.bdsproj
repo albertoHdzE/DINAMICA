@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">CSharp.Personality</Option>
+			<Option Name="ProjectType">Application</Option>
+			<Option Name="Version">2.0</Option>
+			<Option Name="GUID">{AFCAC2CB-EF5F-49C5-98FC-30FD9254544A}</Option>
+		</Option>
+	</PersonalityInfo>
+	<CSharp.Personality>
+		<Options>
+			<SelectedOptionSet>
+				<SelectedOptionSet Name="OptionsSet">Debug</SelectedOptionSet>
+			</SelectedOptionSet>
+			<OptionsSet Name="Release">
+				<Options>
+					<Options Name="Warning">4</Options>
+					<Options Name="Incremental">False</Options>
+					<Options Name="DocumentationFile"></Options>
+					<Options Name="DefaultNamespace">Carga_Dlls_Dinam</Options>
+					<Options Name="DebugInformation">False</Options>
+					<Options Name="Optimization">True</Options>
+					<Options Name="Overflow">False</Options>
+					<Options Name="ivUnsafe">False</Options>
+					<Options Name="WarningAsError">False</Options>
+					<Options Name="Defines">TRACE</Options>
+					<Options Name="TargetName"></Options>
+					<Options Name="TargetType">Windows</Options>
+					<Options Name="Main"></Options>
+					<Options Name="BaseAddress">285212672</Options>
+					<Options Name="BuildInOutput">False</Options>
+					<Options Name="OutputDirectory">bin\Release</Options>
+					<Options Name="RunParams"></Options>
+					<Options Name="HostApplication"></Options>
+					<Options Name="Launcher"></Options>
+					<Options Name="UseLauncher">False</Options>
+					<Options Name="DebugCWD"></Options>
+					<Options Name="LoadAllSymbols">True</Options>
+					<Options Name="LoadUnspecifiedSymbols">False</Options>
+					<Options Name="Debug Symbols Search Path"></Options>
+					<Options Name="AspNetUseHostServer">False</Options>
+					<Options Name="AspNetLaunchBrowser">False</Options>
+					<Options Name="AspNetStartPage"></Options>
+					<Options Name="AspNetHostServer">IIS</Options>
+					<Options Name="AspNetCassiniPortIndex">0</Options>
+					<Options Name="AspNetCassiniStartup"></Options>
+					<Options Name="AspNetIISVirtualDirectory"></Options>
+					<Options Name="AspNetHTTPAddress"></Options>
+					<Options Name="AspNetCassiniHTTPAddress"></Options>
+				</Options>
+			</OptionsSet>
+			<OptionsSet Name="Debug">
+				<Options>
+					<Options Name="Warning">4</Options>
+					<Options Name="Incremental">True</Options>
+					<Options Name="DocumentationFile"></Options>
+					<Options Name="DefaultNamespace">Carga_Dlls_Dinam</Options>
+					<Options Name="DebugInformation">True</Options>
+					<Options Name="Optimization">False</Options>
+					<Options Name="Overflow">False</Options>
+					<Options Name="ivUnsafe">False</Options>
+					<Options Name="WarningAsError">False</Options>
+					<Options Name="Defines">TRACE;DEBUG</Options>
+					<Options Name="TargetName"></Options>
+					<Options Name="TargetType">Windows</Options>
+					<Options Name="Main"></Options>
+					<Options Name="BaseAddress">285212672</Options>
+					<Options Name="BuildInOutput">False</Options>
+					<Options Name="OutputDirectory">bin\Debug</Options>
+					<Options Name="RunParams"></Options>
+					<Options Name="HostApplication"></Options>
+					<Options Name="Launcher"></Options>
+					<Options Name="UseLauncher">False</Options>
+					<Options Name="DebugCWD"></Options>
+					<Options Name="LoadAllSymbols">True</Options>
+					<Options Name="LoadUnspecifiedSymbols">False</Options>
+					<Options Name="Debug Symbols Search Path"></Options>
+					<Options Name="AspNetUseHostServer">False</Options>
+					<Options Name="AspNetLaunchBrowser">False</Options>
+					<Options Name="AspNetStartPage"></Options>
+					<Options Name="AspNetHostServer">IIS</Options>
+					<Options Name="AspNetCassiniPortIndex">0</Options>
+					<Options Name="AspNetCassiniStartup"></Options>
+					<Options Name="AspNetIISVirtualDirectory"></Options>
+					<Options Name="AspNetHTTPAddress"></Options>
+					<Options Name="AspNetCassiniHTTPAddress"></Options>
+				</Options>
+			</OptionsSet>
+		</Options>  
+    
+    
+    
+    
+    
+    <FileList>
+      <File FileName="Intro.resx" ContainerId="ResXCompiler" ModuleName="Intro" Parent="Intro.cs"/>
+      <File FileName="CreaExe.resx" ContainerId="ResXCompiler" ModuleName="CreaExe" Parent="CreaExe.cs"/>
+      <File FileName="CargaCompo.resx" ContainerId="ResXCompiler" ModuleName="CargaCompo" Parent="CargaCompo.cs"/>
+      <File FileName="Disenno.resx" ContainerId="ResXCompiler" ModuleName="Disenno" Parent="Disenno.cs"/>
+      <File FileName="Inspector.resx" ContainerId="ResXCompiler" ModuleName="Inspector.resx" Parent="Inspector.cs"/>
+      <File FileName="Paleta.resx" ContainerId="ResXCompiler" ModuleName="Paleta.resx" Parent="Paleta.cs"/>
+      <File FileName="EditorCodigo.resx" ContainerId="ResXCompiler" ModuleName="EditorCodigo" Parent="EditorCodigo.cs"/>
+      <File FileName="Paleta.ar-DZ.resx" ContainerId="ResXCompiler" ModuleName="Paleta.ar-DZ" Parent="Paleta.cs"/>
+      <File FileName="Advertencia.resx" ContainerId="ResXCompiler" ModuleName="Advertencia" Parent="Advertencia.cs"/>
+      <File FileName="$(SystemRoot)\microsoft.net\framework\v1.1.4322\System.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System" AssemblyName="System" Version="1.0.5000.0"/>
+      <File FileName="$(SystemRoot)\microsoft.net\framework\v1.1.4322\System.Data.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.Data" AssemblyName="System.Data" Version="1.0.5000.0"/>
+      <File FileName="$(SystemRoot)\microsoft.net\framework\v1.1.4322\System.Drawing.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.Drawing" AssemblyName="System.Drawing" Version="1.0.5000.0"/>
+      <File FileName="$(SystemRoot)\microsoft.net\framework\v1.1.4322\System.Windows.Forms.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.Windows.Forms" AssemblyName="System.Windows.Forms" Version="1.0.5000.0"/>
+      <File FileName="$(SystemRoot)\microsoft.net\framework\v1.1.4322\System.XML.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="System.XML" AssemblyName="System.XML" Version="1.0.5000.0"/>
+      <File FileName="Paleta.cs" ContainerId="CSharpCompiler" ModuleName="Paleta" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.Paleta"/>
+      <File FileName="Inspector.cs" ContainerId="CSharpCompiler" ModuleName="Inspector" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.Inspector"/>
+      <File FileName="Disenno.cs" ContainerId="CSharpCompiler" ModuleName="Disenno" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.Disenno"/>
+      <File FileName="CargaCompo.cs" ContainerId="CSharpCompiler" ModuleName="CargaCompo" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.CargaCompo"/>
+      <File FileName="EditorCodigo.cs" ContainerId="CSharpCompiler" ModuleName="EditorCodigo" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.EditorCodigo"/>
+      <File FileName="ModelSupport_Carga_Dlls_Dinam\default.txaPackage" ContainerId="TogetherDiagram" ModuleName="default"/>
+      <File FileName="ModelSupport_Carga_Dlls_Dinam\Carga_Dlls_Dinam\default.txaPackage" ContainerId="TogetherDiagram" ModuleName="default"/>
+      <File FileName="ModelSupport_Carga_Dlls_Dinam\default.txvpck" ContainerId="TogetherDiagram" ModuleName="default"/>
+      <File FileName="ModelSupport_Carga_Dlls_Dinam\Carga_Dlls_Dinam\default.txvpck" ContainerId="TogetherDiagram" ModuleName="default"/>
+      <File FileName="bin\debug\GennEDev.Controls.BitButton.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="GennEDev.Controls.BitButton" AssemblyName="GennEDev.Controls.BitButton" Version="1.0.1414.42540"/>
+      <File FileName="bin\debug\GennEDev.XPThemes.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="GennEDev.XPThemes" AssemblyName="GennEDev.XPThemes" Version="1.0.0.0"/>
+      <File FileName="CreaExe.cs" ContainerId="CSharpCompiler" ModuleName="CreaExe" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.CreaExe"/>
+      <File FileName="Advertencia.cs" ContainerId="CSharpCompiler" ModuleName="Advertencia" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.Advertencia"/>
+      <File FileName="Intro.cs" ContainerId="CSharpCompiler" ModuleName="Intro" FileTypeString="System.Windows.Forms.Form" RootComponentClassName="Carga_Dlls_Dinam.Intro"/>
+      <File FileName="..\basedinamica\bin\debug\base_dinamica.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="base_dinamica" AssemblyName="base_dinamica" Version="1.0.3166.27889"/>
+      <File FileName="bin\debug\eventos.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="eventos" AssemblyName="eventos" Version="1.0.3014.22061"/>
+      <File FileName="..\componentesidedinamica\bin\debug\ComponentesIDEdinamica.dll" ContainerId="DotNetAssemblyCompiler" ModuleName="ComponentesIDEdinamica" AssemblyName="ComponentesIDEdinamica" Version="1.0.3208.17546"/>
+      <File FileName="bin\debug\menus.dll" ContainerId="DotNetAssemblyCompiler" AssemblyName="menus" Version="1.0.3209.17770"/>
+    </FileList>
+  </CSharp.Personality>
+	<ModelSupport>True</ModelSupport>
+</BorlandProject>

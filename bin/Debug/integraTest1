@@ -1,0 +1,280 @@
+<FORMA>
+nombre forma:Forma1
+id forma:1
+ancho:452
+alto:622
+menu:False
+ids:10
+text:Forma de Dise?o
+
+
+<COMPONENTE>
+ID:7
+tipo:EDO.CompoHeun
+nombre:Heun
+origen:edo.dll
+x:171
+y:513
+ancho:32
+alto:32
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:6
+tipo:EDO.CompoPuntoMedio
+nombre:PuntoM
+origen:edo.dll
+x:127
+y:507
+ancho:32
+alto:32
+
+
+
+<Configuracion>
+PuntoM.Delta=0.05;
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:5
+tipo:EDO.CompoEulerMejorado
+nombre:EulerM
+origen:edo.dll
+x:76
+y:506
+ancho:44
+alto:34
+
+
+
+<Configuracion>
+EulerM.Delta=0.05;
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:4
+tipo:EDO.CompoEuler
+nombre:Euler
+origen:edo.dll
+x:37
+y:508
+ancho:32
+alto:30
+
+
+
+<Configuracion>
+Euler.Delta=0.05;
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:8
+tipo:ComponentesIDEdinamica.CompoComboBox
+nombre:Combo
+origen:componentesidedinamica.dll
+x:84
+y:427
+ancho:121
+alto:20
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:10
+tipo:ComponentesIDEdinamica.BotonPaleta
+nombre:Boton
+origen:componentesidedinamica.dll
+x:335
+y:387
+ancho:75
+alto:23
+
+
+
+<Configuracion>
+</Configuracion>
+<EVENTO>
+System.EventHandler LanzaMiClick
+Iterador.Reinicia();
+Iterador.Inicio=0;
+Iterador.Final=50;
+Iterador.Avance=0.05;
+
+
+
+if (Combo.Text=="LORENZ")
+{
+    string[] variables=new string[3];
+    variables[0]="x";
+    variables[1]="y";
+    variables[2]="z";
+
+
+    string[] parametros=new string[3];
+    parametros[0]="s";
+    parametros[1]="r";
+    parametros[2]="b";
+
+    double[] valParas=new double[3];
+    valParas[0]=10;
+    valParas[1]=28;
+    valParas[2]=2.667;
+
+    string[] ecuaciones=new string[3];
+    ecuaciones[0]="s*(y-x)";
+    ecuaciones[0]="r*x-y-x*z";
+    ecuaciones[0]="x*y-b*z";
+
+    double[] vecEntrada=new double[4];
+    vecEntrada[0]=1;                                        ///Tiempo
+    vecEntrada[1]=1.2;
+    vecEntrada[2]=2.4;
+    vecEntrada[3]=-1.2;
+
+   ComboM.VectorEntrada=vecEntrada;
+   Iterador.Iniciar();
+}
+
+
+
+if (Combo.Text=="ROSLER")
+{
+    string[] variables=new string[3];
+    variables[0]="x";
+    variables[1]="y";
+    variables[2]="z";
+
+
+    string[] parametros=new string[2];
+    parametros[0]="a";
+    parametros[1]="b";
+
+
+    double[] valParas=new double[2];
+    valParas[0]=0.2;
+    valParas[1]=5.7;
+
+    string[] ecuaciones=new string[3];
+    ecuaciones[0]="-(y+z)";
+    ecuaciones[0]="x+a*y";
+    ecuaciones[0]="a+z*(x-b)";
+
+    double[] vecEntrada=new double[4];
+    vecEntrada[0]=1;                                        ///Tiempo
+    vecEntrada[1]=1.3;
+    vecEntrada[2]=2.4;
+    vecEntrada[3]=2.3;
+
+
+   ComboM.VectorEntrada=vecEntrada;
+   Iterador.Iniciar();
+}
+
+
+if (Combo.Text=="")
+{
+    MessageBox.Show("Selecciona un ATRACTOR");
+}
+
+
+
+
+
+
+
+
+</EVENTO>
+
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:9
+tipo:Dinamica.ComboMI
+nombre:ComboM
+origen:combobox_metodos.dll
+x:85
+y:458
+ancho:121
+alto:21
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:2
+tipo:Dinamica.Componentes.CompoIterador
+nombre:Iterador
+origen:iterables.dll
+x:228
+y:426
+ancho:208
+alto:32
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:1
+tipo:Dinamica.Visualizaciones.Grafica05
+nombre:Grafica
+origen:graficas_v2.0.dll
+x:10
+y:12
+ancho:424
+alto:376
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:3
+tipo:Dinamica.Numericos.CompoSistemaDeEcuaciones
+nombre:Sistema
+origen:iterables.dll
+x:297
+y:466
+ancho:104
+alto:56
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+</FORMA>
+
+
+
+

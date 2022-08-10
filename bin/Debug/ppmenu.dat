@@ -1,0 +1,11 @@
+<MENUCONTEX>
+<OPCION Nombre="Centro">
+EjesCentro
+</OPCION>
+<OPCION Nombre="Lados">
+EjesLados
+</OPCION>
+<OPCION Nombre="Marcas">
+MostrarOcultarMarcas
+</OPCION>
+</MENUCONTEX>

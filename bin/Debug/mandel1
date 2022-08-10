@@ -1,0 +1,432 @@
+<FORMA>
+nombre forma:Forma1
+id forma:1
+ancho:790
+alto:724
+menu:False
+ids:6
+text:Forma de Dise?o
+
+
+<COMPONENTE>
+ID:6
+tipo:Dinamica.Numericos.CompoFractalMandelbrot
+nombre:CompoFractalMandelbrot6
+origen:fractal.dll
+x:152
+y:495
+ancho:32
+alto:32
+
+
+
+<Configuracion>
+CompoFractalMandelbrot6.Iterador=CompoIterador4;
+CompoFractalMandelbrot6.Malla=Grafica041;
+CompoFractalMandelbrot6.MapeoColor=MapeadorColor3;
+CompoFractalMandelbrot6.Superficie=GraficaSuperficies3D2;
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:4
+tipo:Dinamica.Componentes.CompoIterador
+nombre:CompoIterador4
+origen:iterables.dll
+x:373
+y:533
+ancho:208
+alto:32
+
+
+
+<Configuracion>
+CompoIterador4.Iterador=CompoIterador5;
+CompoIterador4.Avance=1;
+CompoIterador4.Final=200;
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:5
+tipo:Dinamica.Componentes.CompoIterador
+nombre:CompoIterador5
+origen:iterables.dll
+x:369
+y:583
+ancho:208
+alto:32
+
+
+
+<Configuracion>
+CompoIterador5.Avance=1;
+CompoIterador5.Final=200;
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:3
+tipo:Dinamica.Visualizaciones.MapeadorColor
+nombre:MapeadorColor3
+origen:graficas_v2.0.dll
+x:416
+y:395
+ancho:333
+alto:60
+
+
+
+<Configuracion>
+<Configuracion Interna>
+MapeadorColor3.Valores = new float[100];
+MapeadorColor3.Valores[0] = 0f;
+MapeadorColor3.Valores[1] = 0f;
+MapeadorColor3.Valores[2] = 0f;
+MapeadorColor3.Valores[3] = 0f;
+MapeadorColor3.Valores[4] = 0f;
+MapeadorColor3.Valores[5] = 0f;
+MapeadorColor3.Valores[6] = 0f;
+MapeadorColor3.Valores[7] = 0f;
+MapeadorColor3.Valores[8] = 0f;
+MapeadorColor3.Valores[9] = 0f;
+MapeadorColor3.Valores[10] = 0f;
+MapeadorColor3.Valores[11] = 0f;
+MapeadorColor3.Valores[12] = 0f;
+MapeadorColor3.Valores[13] = 0f;
+MapeadorColor3.Valores[14] = 0f;
+MapeadorColor3.Valores[15] = 38.63636f;
+MapeadorColor3.Valores[16] = 0f;
+MapeadorColor3.Valores[17] = 0f;
+MapeadorColor3.Valores[18] = 0f;
+MapeadorColor3.Valores[19] = 0f;
+MapeadorColor3.Valores[20] = 0f;
+MapeadorColor3.Valores[21] = 0f;
+MapeadorColor3.Valores[22] = 0f;
+MapeadorColor3.Valores[23] = 0f;
+MapeadorColor3.Valores[24] = 0f;
+MapeadorColor3.Valores[25] = 0f;
+MapeadorColor3.Valores[26] = 0f;
+MapeadorColor3.Valores[27] = 0f;
+MapeadorColor3.Valores[28] = 0f;
+MapeadorColor3.Valores[29] = 0f;
+MapeadorColor3.Valores[30] = 0f;
+MapeadorColor3.Valores[31] = 0f;
+MapeadorColor3.Valores[32] = 0f;
+MapeadorColor3.Valores[33] = 0f;
+MapeadorColor3.Valores[34] = 0f;
+MapeadorColor3.Valores[35] = 0f;
+MapeadorColor3.Valores[36] = 0f;
+MapeadorColor3.Valores[37] = 95.30303f;
+MapeadorColor3.Valores[38] = 0f;
+MapeadorColor3.Valores[39] = 0f;
+MapeadorColor3.Valores[40] = 0f;
+MapeadorColor3.Valores[41] = 0f;
+MapeadorColor3.Valores[42] = 0f;
+MapeadorColor3.Valores[43] = 0f;
+MapeadorColor3.Valores[44] = 0f;
+MapeadorColor3.Valores[45] = 0f;
+MapeadorColor3.Valores[46] = 0f;
+MapeadorColor3.Valores[47] = 0f;
+MapeadorColor3.Valores[48] = 0f;
+MapeadorColor3.Valores[49] = 0f;
+MapeadorColor3.Valores[50] = 0f;
+MapeadorColor3.Valores[51] = 0f;
+MapeadorColor3.Valores[52] = 0f;
+MapeadorColor3.Valores[53] = 0f;
+MapeadorColor3.Valores[54] = 0f;
+MapeadorColor3.Valores[55] = 0f;
+MapeadorColor3.Valores[56] = 0f;
+MapeadorColor3.Valores[57] = 0f;
+MapeadorColor3.Valores[58] = 0f;
+MapeadorColor3.Valores[59] = 0f;
+MapeadorColor3.Valores[60] = 0f;
+MapeadorColor3.Valores[61] = 0f;
+MapeadorColor3.Valores[62] = 0f;
+MapeadorColor3.Valores[63] = 0f;
+MapeadorColor3.Valores[64] = 0f;
+MapeadorColor3.Valores[65] = 0f;
+MapeadorColor3.Valores[66] = 170f;
+MapeadorColor3.Valores[67] = 0f;
+MapeadorColor3.Valores[68] = 0f;
+MapeadorColor3.Valores[69] = 0f;
+MapeadorColor3.Valores[70] = 0f;
+MapeadorColor3.Valores[71] = 0f;
+MapeadorColor3.Valores[72] = 0f;
+MapeadorColor3.Valores[73] = 0f;
+MapeadorColor3.Valores[74] = 0f;
+MapeadorColor3.Valores[75] = 0f;
+MapeadorColor3.Valores[76] = 0f;
+MapeadorColor3.Valores[77] = 0f;
+MapeadorColor3.Valores[78] = 0f;
+MapeadorColor3.Valores[79] = 0f;
+MapeadorColor3.Valores[80] = 0f;
+MapeadorColor3.Valores[81] = 208.6364f;
+MapeadorColor3.Valores[82] = 0f;
+MapeadorColor3.Valores[83] = 0f;
+MapeadorColor3.Valores[84] = 0f;
+MapeadorColor3.Valores[85] = 0f;
+MapeadorColor3.Valores[86] = 0f;
+MapeadorColor3.Valores[87] = 0f;
+MapeadorColor3.Valores[88] = 0f;
+MapeadorColor3.Valores[89] = 0f;
+MapeadorColor3.Valores[90] = 0f;
+MapeadorColor3.Valores[91] = 0f;
+MapeadorColor3.Valores[92] = 0f;
+MapeadorColor3.Valores[93] = 0f;
+MapeadorColor3.Valores[94] = 0f;
+MapeadorColor3.Valores[95] = 0f;
+MapeadorColor3.Valores[96] = 0f;
+MapeadorColor3.Valores[97] = 0f;
+MapeadorColor3.Valores[98] = 0f;
+MapeadorColor3.Valores[99] = 255f;
+MapeadorColor3.ColorPtos = new Color[100];
+MapeadorColor3.ColorPtos[0] = Color.FromArgb(255,0,0,0);
+MapeadorColor3.ColorPtos[1] = Color.FromArgb(255,0,0,0);
+MapeadorColor3.ColorPtos[2] = Color.FromArgb(255,8,0,0);
+MapeadorColor3.ColorPtos[3] = Color.FromArgb(255,17,0,0);
+MapeadorColor3.ColorPtos[4] = Color.FromArgb(255,25,0,0);
+MapeadorColor3.ColorPtos[5] = Color.FromArgb(255,34,0,0);
+MapeadorColor3.ColorPtos[6] = Color.FromArgb(255,42,0,0);
+MapeadorColor3.ColorPtos[7] = Color.FromArgb(255,51,0,0);
+MapeadorColor3.ColorPtos[8] = Color.FromArgb(255,59,0,0);
+MapeadorColor3.ColorPtos[9] = Color.FromArgb(255,68,0,0);
+MapeadorColor3.ColorPtos[10] = Color.FromArgb(255,76,0,0);
+MapeadorColor3.ColorPtos[11] = Color.FromArgb(255,85,0,0);
+MapeadorColor3.ColorPtos[12] = Color.FromArgb(255,93,0,0);
+MapeadorColor3.ColorPtos[13] = Color.FromArgb(255,102,0,0);
+MapeadorColor3.ColorPtos[14] = Color.FromArgb(255,110,0,0);
+MapeadorColor3.ColorPtos[15] = Color.FromArgb(255,128,0,0);
+MapeadorColor3.ColorPtos[16] = Color.FromArgb(255,128,0,0);
+MapeadorColor3.ColorPtos[17] = Color.FromArgb(255,128,11,0);
+MapeadorColor3.ColorPtos[18] = Color.FromArgb(255,128,23,0);
+MapeadorColor3.ColorPtos[19] = Color.FromArgb(255,128,34,0);
+MapeadorColor3.ColorPtos[20] = Color.FromArgb(255,128,46,0);
+MapeadorColor3.ColorPtos[21] = Color.FromArgb(255,128,57,0);
+MapeadorColor3.ColorPtos[22] = Color.FromArgb(255,128,69,0);
+MapeadorColor3.ColorPtos[23] = Color.FromArgb(255,128,81,0);
+MapeadorColor3.ColorPtos[24] = Color.FromArgb(255,128,92,0);
+MapeadorColor3.ColorPtos[25] = Color.FromArgb(255,128,104,0);
+MapeadorColor3.ColorPtos[26] = Color.FromArgb(255,128,115,0);
+MapeadorColor3.ColorPtos[27] = Color.FromArgb(255,128,127,0);
+MapeadorColor3.ColorPtos[28] = Color.FromArgb(255,128,139,0);
+MapeadorColor3.ColorPtos[29] = Color.FromArgb(255,128,150,0);
+MapeadorColor3.ColorPtos[30] = Color.FromArgb(255,128,162,0);
+MapeadorColor3.ColorPtos[31] = Color.FromArgb(255,128,173,0);
+MapeadorColor3.ColorPtos[32] = Color.FromArgb(255,128,185,0);
+MapeadorColor3.ColorPtos[33] = Color.FromArgb(255,128,197,0);
+MapeadorColor3.ColorPtos[34] = Color.FromArgb(255,128,208,0);
+MapeadorColor3.ColorPtos[35] = Color.FromArgb(255,128,220,0);
+MapeadorColor3.ColorPtos[36] = Color.FromArgb(255,128,231,0);
+MapeadorColor3.ColorPtos[37] = Color.FromArgb(255,128,255,0);
+MapeadorColor3.ColorPtos[38] = Color.FromArgb(255,128,255,0);
+MapeadorColor3.ColorPtos[39] = Color.FromArgb(255,132,247,0);
+MapeadorColor3.ColorPtos[40] = Color.FromArgb(255,136,238,0);
+MapeadorColor3.ColorPtos[41] = Color.FromArgb(255,141,229,0);
+MapeadorColor3.ColorPtos[42] = Color.FromArgb(255,145,220,0);
+MapeadorColor3.ColorPtos[43] = Color.FromArgb(255,149,212,0);
+MapeadorColor3.ColorPtos[44] = Color.FromArgb(255,154,203,0);
+MapeadorColor3.ColorPtos[45] = Color.FromArgb(255,158,194,0);
+MapeadorColor3.ColorPtos[46] = Color.FromArgb(255,163,185,0);
+MapeadorColor3.ColorPtos[47] = Color.FromArgb(255,167,176,0);
+MapeadorColor3.ColorPtos[48] = Color.FromArgb(255,171,168,0);
+MapeadorColor3.ColorPtos[49] = Color.FromArgb(255,176,159,0);
+MapeadorColor3.ColorPtos[50] = Color.FromArgb(255,180,150,0);
+MapeadorColor3.ColorPtos[51] = Color.FromArgb(255,184,141,0);
+MapeadorColor3.ColorPtos[52] = Color.FromArgb(255,189,132,0);
+MapeadorColor3.ColorPtos[53] = Color.FromArgb(255,193,124,0);
+MapeadorColor3.ColorPtos[54] = Color.FromArgb(255,198,115,0);
+MapeadorColor3.ColorPtos[55] = Color.FromArgb(255,202,106,0);
+MapeadorColor3.ColorPtos[56] = Color.FromArgb(255,206,97,0);
+MapeadorColor3.ColorPtos[57] = Color.FromArgb(255,211,88,0);
+MapeadorColor3.ColorPtos[58] = Color.FromArgb(255,215,80,0);
+MapeadorColor3.ColorPtos[59] = Color.FromArgb(255,219,71,0);
+MapeadorColor3.ColorPtos[60] = Color.FromArgb(255,224,62,0);
+MapeadorColor3.ColorPtos[61] = Color.FromArgb(255,228,53,0);
+MapeadorColor3.ColorPtos[62] = Color.FromArgb(255,233,44,0);
+MapeadorColor3.ColorPtos[63] = Color.FromArgb(255,237,36,0);
+MapeadorColor3.ColorPtos[64] = Color.FromArgb(255,241,27,0);
+MapeadorColor3.ColorPtos[65] = Color.FromArgb(255,246,18,0);
+MapeadorColor3.ColorPtos[66] = Color.FromArgb(255,255,0,0);
+MapeadorColor3.ColorPtos[67] = Color.FromArgb(255,255,0,0);
+MapeadorColor3.ColorPtos[68] = Color.FromArgb(255,247,17,0);
+MapeadorColor3.ColorPtos[69] = Color.FromArgb(255,239,34,0);
+MapeadorColor3.ColorPtos[70] = Color.FromArgb(255,230,51,0);
+MapeadorColor3.ColorPtos[71] = Color.FromArgb(255,222,68,0);
+MapeadorColor3.ColorPtos[72] = Color.FromArgb(255,213,85,0);
+MapeadorColor3.ColorPtos[73] = Color.FromArgb(255,205,102,0);
+MapeadorColor3.ColorPtos[74] = Color.FromArgb(255,196,119,0);
+MapeadorColor3.ColorPtos[75] = Color.FromArgb(255,188,136,0);
+MapeadorColor3.ColorPtos[76] = Color.FromArgb(255,179,153,0);
+MapeadorColor3.ColorPtos[77] = Color.FromArgb(255,171,170,0);
+MapeadorColor3.ColorPtos[78] = Color.FromArgb(255,162,187,0);
+MapeadorColor3.ColorPtos[79] = Color.FromArgb(255,154,204,0);
+MapeadorColor3.ColorPtos[80] = Color.FromArgb(255,145,221,0);
+MapeadorColor3.ColorPtos[81] = Color.FromArgb(255,128,255,0);
+MapeadorColor3.ColorPtos[82] = Color.FromArgb(255,128,255,0);
+MapeadorColor3.ColorPtos[83] = Color.FromArgb(255,135,241,14);
+MapeadorColor3.ColorPtos[84] = Color.FromArgb(255,142,227,28);
+MapeadorColor3.ColorPtos[85] = Color.FromArgb(255,149,213,42);
+MapeadorColor3.ColorPtos[86] = Color.FromArgb(255,156,199,56);
+MapeadorColor3.ColorPtos[87] = Color.FromArgb(255,163,185,70);
+MapeadorColor3.ColorPtos[88] = Color.FromArgb(255,170,170,85);
+MapeadorColor3.ColorPtos[89] = Color.FromArgb(255,177,156,99);
+MapeadorColor3.ColorPtos[90] = Color.FromArgb(255,184,142,113);
+MapeadorColor3.ColorPtos[91] = Color.FromArgb(255,191,128,127);
+MapeadorColor3.ColorPtos[92] = Color.FromArgb(255,198,114,141);
+MapeadorColor3.ColorPtos[93] = Color.FromArgb(255,205,100,155);
+MapeadorColor3.ColorPtos[94] = Color.FromArgb(255,212,85,170);
+MapeadorColor3.ColorPtos[95] = Color.FromArgb(255,219,71,184);
+MapeadorColor3.ColorPtos[96] = Color.FromArgb(255,226,57,198);
+MapeadorColor3.ColorPtos[97] = Color.FromArgb(255,233,43,212);
+MapeadorColor3.ColorPtos[98] = Color.FromArgb(255,240,29,226);
+MapeadorColor3.ColorPtos[99] = Color.FromArgb(255,255,0,255);
+MapeadorColor3.PtosVisibles = new bool[100];
+MapeadorColor3.PtosVisibles[0] = true;
+MapeadorColor3.PtosVisibles[1] = false;
+MapeadorColor3.PtosVisibles[2] = false;
+MapeadorColor3.PtosVisibles[3] = false;
+MapeadorColor3.PtosVisibles[4] = false;
+MapeadorColor3.PtosVisibles[5] = false;
+MapeadorColor3.PtosVisibles[6] = false;
+MapeadorColor3.PtosVisibles[7] = false;
+MapeadorColor3.PtosVisibles[8] = false;
+MapeadorColor3.PtosVisibles[9] = false;
+MapeadorColor3.PtosVisibles[10] = false;
+MapeadorColor3.PtosVisibles[11] = false;
+MapeadorColor3.PtosVisibles[12] = false;
+MapeadorColor3.PtosVisibles[13] = false;
+MapeadorColor3.PtosVisibles[14] = false;
+MapeadorColor3.PtosVisibles[15] = true;
+MapeadorColor3.PtosVisibles[16] = false;
+MapeadorColor3.PtosVisibles[17] = false;
+MapeadorColor3.PtosVisibles[18] = false;
+MapeadorColor3.PtosVisibles[19] = false;
+MapeadorColor3.PtosVisibles[20] = false;
+MapeadorColor3.PtosVisibles[21] = false;
+MapeadorColor3.PtosVisibles[22] = false;
+MapeadorColor3.PtosVisibles[23] = false;
+MapeadorColor3.PtosVisibles[24] = false;
+MapeadorColor3.PtosVisibles[25] = false;
+MapeadorColor3.PtosVisibles[26] = false;
+MapeadorColor3.PtosVisibles[27] = false;
+MapeadorColor3.PtosVisibles[28] = false;
+MapeadorColor3.PtosVisibles[29] = false;
+MapeadorColor3.PtosVisibles[30] = false;
+MapeadorColor3.PtosVisibles[31] = false;
+MapeadorColor3.PtosVisibles[32] = false;
+MapeadorColor3.PtosVisibles[33] = false;
+MapeadorColor3.PtosVisibles[34] = false;
+MapeadorColor3.PtosVisibles[35] = false;
+MapeadorColor3.PtosVisibles[36] = false;
+MapeadorColor3.PtosVisibles[37] = true;
+MapeadorColor3.PtosVisibles[38] = false;
+MapeadorColor3.PtosVisibles[39] = false;
+MapeadorColor3.PtosVisibles[40] = false;
+MapeadorColor3.PtosVisibles[41] = false;
+MapeadorColor3.PtosVisibles[42] = false;
+MapeadorColor3.PtosVisibles[43] = false;
+MapeadorColor3.PtosVisibles[44] = false;
+MapeadorColor3.PtosVisibles[45] = false;
+MapeadorColor3.PtosVisibles[46] = false;
+MapeadorColor3.PtosVisibles[47] = false;
+MapeadorColor3.PtosVisibles[48] = false;
+MapeadorColor3.PtosVisibles[49] = false;
+MapeadorColor3.PtosVisibles[50] = false;
+MapeadorColor3.PtosVisibles[51] = false;
+MapeadorColor3.PtosVisibles[52] = false;
+MapeadorColor3.PtosVisibles[53] = false;
+MapeadorColor3.PtosVisibles[54] = false;
+MapeadorColor3.PtosVisibles[55] = false;
+MapeadorColor3.PtosVisibles[56] = false;
+MapeadorColor3.PtosVisibles[57] = false;
+MapeadorColor3.PtosVisibles[58] = false;
+MapeadorColor3.PtosVisibles[59] = false;
+MapeadorColor3.PtosVisibles[60] = false;
+MapeadorColor3.PtosVisibles[61] = false;
+MapeadorColor3.PtosVisibles[62] = false;
+MapeadorColor3.PtosVisibles[63] = false;
+MapeadorColor3.PtosVisibles[64] = false;
+MapeadorColor3.PtosVisibles[65] = false;
+MapeadorColor3.PtosVisibles[66] = true;
+MapeadorColor3.PtosVisibles[67] = false;
+MapeadorColor3.PtosVisibles[68] = false;
+MapeadorColor3.PtosVisibles[69] = false;
+MapeadorColor3.PtosVisibles[70] = false;
+MapeadorColor3.PtosVisibles[71] = false;
+MapeadorColor3.PtosVisibles[72] = false;
+MapeadorColor3.PtosVisibles[73] = false;
+MapeadorColor3.PtosVisibles[74] = false;
+MapeadorColor3.PtosVisibles[75] = false;
+MapeadorColor3.PtosVisibles[76] = false;
+MapeadorColor3.PtosVisibles[77] = false;
+MapeadorColor3.PtosVisibles[78] = false;
+MapeadorColor3.PtosVisibles[79] = false;
+MapeadorColor3.PtosVisibles[80] = false;
+MapeadorColor3.PtosVisibles[81] = true;
+MapeadorColor3.PtosVisibles[82] = false;
+MapeadorColor3.PtosVisibles[83] = false;
+MapeadorColor3.PtosVisibles[84] = false;
+MapeadorColor3.PtosVisibles[85] = false;
+MapeadorColor3.PtosVisibles[86] = false;
+MapeadorColor3.PtosVisibles[87] = false;
+MapeadorColor3.PtosVisibles[88] = false;
+MapeadorColor3.PtosVisibles[89] = false;
+MapeadorColor3.PtosVisibles[90] = false;
+MapeadorColor3.PtosVisibles[91] = false;
+MapeadorColor3.PtosVisibles[92] = false;
+MapeadorColor3.PtosVisibles[93] = false;
+MapeadorColor3.PtosVisibles[94] = false;
+MapeadorColor3.PtosVisibles[95] = false;
+MapeadorColor3.PtosVisibles[96] = false;
+MapeadorColor3.PtosVisibles[97] = false;
+MapeadorColor3.PtosVisibles[98] = false;
+MapeadorColor3.PtosVisibles[99] = true;
+MapeadorColor3.AjustarMapeador();
+</Configuracion Interna>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:1
+tipo:Dinamica.Visualizaciones.Grafica04
+nombre:Grafica041
+origen:graficas_v2.0.dll
+x:32
+y:35
+ancho:344
+alto:336
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+<COMPONENTE>
+ID:2
+tipo:Dinamica.Visualizaciones.GraficaSuperficies3D
+nombre:GraficaSuperficies3D2
+origen:graficas_v2.0.dll
+x:406
+y:38
+ancho:350
+alto:350
+
+
+
+<Configuracion>
+</Configuracion>
+</COMPONENTE>
+
+
+</FORMA>
+
+
+
+

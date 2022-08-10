@@ -1,0 +1,33 @@
+<FORMA>
+nombre forma:Forma1
+id forma:1
+ancho:1030
+alto:724
+ids:1
+text:Forma de Dise?o
+
+
+<COMPONENTE>
+ID:1
+tipo:ComponentesIDEdinamica.CompoTextBox
+nombre:CompoTextBox1
+origen:componentesidedinamica.dll
+x:253
+y:125
+ancho:273
+alto:79
+
+
+
+<Configuracion>
+CompoTextBox1.Lineas=new string[5]{"UNO ","DOS ","TRES","U","S"};
+CompoTextBox1.Multilinea=true;
+</Configuracion>
+</COMPONENTE>
+
+
+</FORMA>
+
+
+
+

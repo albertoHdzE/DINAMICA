@@ -8,12 +8,12 @@ The main interface can be seen in the next image:
 ## MANDELBROT 3D
 ![MANDELBROT](https://github.com/albertoHdzE/DINAMICA/blob/main/images/mandel3d.jpeg)
 
-LORENZ
+## LORENZ
 ![MANDELBROT](https://github.com/albertoHdzE/DINAMICA/blob/main/images/lorenz.jpeg)
 
-OTHERS
+## OTHERS
 ![MANDELBROT](https://github.com/albertoHdzE/DINAMICA/blob/main/images/resorte.jpeg)
 
-ENVIRONMENT OF MATHEMATICAL INTEGRATION ENVIRONMENT
+## ENVIRONMENT OF MATHEMATICAL INTEGRATION ENVIRONMENT
 ![MANDELBROT](https://github.com/albertoHdzE/DINAMICA/blob/main/images/integra.jpeg)
 
